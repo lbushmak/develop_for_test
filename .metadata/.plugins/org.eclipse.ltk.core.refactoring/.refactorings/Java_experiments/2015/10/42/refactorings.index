@@ -1,0 +1,11 @@
+1444750677716	Encapsulate field 'age'
+1444750690619	Encapsulate field 'weight'
+1444750702124	Encapsulate field 'name'
+1444752251601	Convert local variable 'b' to field
+1444755346417	Copy compilation unit
+1444755731507	Delete element
+1444762606306	Extract Class...
+1444773446661	Rename local variable 'h'
+1444773478662	Rename local variable 'h'
+1444774191169	Rename local variable 'h'
+1444909056816	Convert local variable 'in' to field

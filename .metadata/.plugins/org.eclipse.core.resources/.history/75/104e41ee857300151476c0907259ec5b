@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Input {
+
+	private static Scanner in = new Scanner(System.in);
+
+	public static int getIntValue(String message){
+		System.out.print(message);
+		int value =  Integer.parseInt(in.nextLine());
+		return value;
+	}
+	
+	public static String getStringValue(String message){
+		System.out.print(message);
+		return in.nextLine();
+	}
+
+	public static void returnFinal() {
+		System.out.println("Your name: " + Input.inputName() + "   Your age: " + Input.inputAge() + " Your BMI: "
+				+ BMI.countBMI());
+	}
+}

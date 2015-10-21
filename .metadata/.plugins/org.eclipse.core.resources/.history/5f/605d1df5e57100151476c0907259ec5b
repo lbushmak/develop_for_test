@@ -1,0 +1,32 @@
+
+public class BMI {
+	// public String name;
+	// public int age;
+	// public int height;
+	// public int weight;
+	public int bmi;
+
+	public Computer comp = new Computer();
+	public Human h = new Human();
+
+	public void countBMI()
+
+	{
+		Human h = new Human();
+		bmi = h.getHeight() - h.getHeight();
+		System.out.println(bmi);
+	}
+
+	public void checkBMI() {
+
+		if (bmi > 120) {
+			System.out.println("Hey, " + h.getName() + " You have to go to gym. Your BMI is " + bmi);
+		}
+		if (h.bmi < 100) {
+			System.out.println("Hey, " + h.getName() + " My name is  " + comp.getName() + "I'm " + comp.getAge());
+		} else {
+			System.out.println("Hey, " + h.getName() + " My name is  " + comp.getName()
+					+ "I'm busy now. But you can call me later!");
+		}
+	}
+}

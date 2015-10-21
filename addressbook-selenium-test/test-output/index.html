@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\bushma\AppData\Local\Temp\testng-eclipse-1050423788\testng-customsuite.xml</span>
+                    <span>C:\Users\bushma\AppData\Local\Temp\testng-eclipse-1391270000\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -101,12 +101,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.example.tests.ContactCreationTests" hash-for-method="testEmptyContactCreation">testEmptyContactCreation</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.example.tests.GroupRemovalTests" hash-for-method="deleteSomeGroup">deleteSomeGroup</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.example.tests.AlsoGroupCreationTests" hash-for-method="testEmptyGroupCreation">testEmptyGroupCreation</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.example.tests.GroupModificationTests" hash-for-method="modifySomeGroup">modifySomeGroup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.example.tests.ContactCreationTests" hash-for-method="testEmptyContactCreation">testEmptyContactCreation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -124,11 +129,6 @@
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.example.tests.GroupCreationTests" hash-for-method="testNonEmptyGroupCreation">testNonEmptyGroupCreation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.example.tests.AlsoGroupCreationTests" hash-for-method="testNonEmptyGroupCreation">testNonEmptyGroupCreation</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
@@ -144,7 +144,7 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.example.tests.AlsoGroupCreationTests</span>
+              <span class="class-name">com.example.tests.GroupCreationTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -188,21 +188,29 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.example.tests.GroupCreationTests</span>
+              <span class="class-name">com.example.tests.GroupRemovalTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testEmptyGroupCreation">
-                  </a> <!-- testEmptyGroupCreation -->
-                  <span class="method-name">testEmptyGroupCreation</span>
+                  <a name="deleteSomeGroup">
+                  </a> <!-- deleteSomeGroup -->
+                  <span class="method-name">deleteSomeGroup</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.example.tests.GroupModificationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testNonEmptyGroupCreation">
-                  </a> <!-- testNonEmptyGroupCreation -->
-                  <span class="method-name">testNonEmptyGroupCreation</span>
+                  <a name="modifySomeGroup">
+                  </a> <!-- modifySomeGroup -->
+                  <span class="method-name">modifySomeGroup</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -210,7 +218,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\bushma\AppData\Local\Temp\testng-eclipse-1050423788\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\bushma\AppData\Local\Temp\testng-eclipse-1391270000\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -219,10 +227,16 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.example.vw.GroupHelper&quot;/&gt;
       &lt;class name=&quot;com.example.tests.ContactCreationTests&quot;/&gt;
       &lt;class name=&quot;com.example.tests.GroupCreationTests&quot;/&gt;
-      &lt;class name=&quot;com.example.tests.AlsoGroupCreationTests&quot;/&gt;
+      &lt;class name=&quot;com.example.vw.ApplicationManager&quot;/&gt;
+      &lt;class name=&quot;com.example.vw.HelperBase&quot;/&gt;
+      &lt;class name=&quot;com.example.vw.ContactHelper&quot;/&gt;
+      &lt;class name=&quot;com.example.vw.NavigationHelper&quot;/&gt;
       &lt;class name=&quot;com.example.tests.ContactData&quot;/&gt;
+      &lt;class name=&quot;com.example.tests.GroupModificationTests&quot;/&gt;
+      &lt;class name=&quot;com.example.tests.GroupRemovalTests&quot;/&gt;
       &lt;class name=&quot;com.example.tests.GroupData&quot;/&gt;
       &lt;class name=&quot;com.example.tests.TestBase&quot;/&gt;
     &lt;/classes&gt;
@@ -238,7 +252,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (6 classes)</span>
+                <span class="test-name">Default test (12 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -268,32 +282,32 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testNonEmptyContactCreation')
 data.setCell(0, 2, 'com.example.tests.ContactCreationTests')
-data.setCell(0, 3, 5484);
+data.setCell(0, 3, 3738);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testEmptyContactCreation')
 data.setCell(1, 2, 'com.example.tests.ContactCreationTests')
-data.setCell(1, 3, 2963);
+data.setCell(1, 3, 2459);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testNonEmptyGroupCreation')
 data.setCell(2, 2, 'com.example.tests.GroupCreationTests')
-data.setCell(2, 3, 1547);
+data.setCell(2, 3, 1496);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testNonEmptyGroupCreation')
-data.setCell(3, 2, 'com.example.tests.AlsoGroupCreationTests')
-data.setCell(3, 3, 1522);
+data.setCell(3, 1, 'modifySomeGroup')
+data.setCell(3, 2, 'com.example.tests.GroupModificationTests')
+data.setCell(3, 3, 1348);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testEmptyGroupCreation')
-data.setCell(4, 2, 'com.example.tests.AlsoGroupCreationTests')
-data.setCell(4, 3, 1469);
+data.setCell(4, 2, 'com.example.tests.GroupCreationTests')
+data.setCell(4, 3, 1331);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testEmptyGroupCreation')
-data.setCell(5, 2, 'com.example.tests.GroupCreationTests')
-data.setCell(5, 3, 1453);
+data.setCell(5, 1, 'deleteSomeGroup')
+data.setCell(5, 2, 'com.example.tests.GroupRemovalTests')
+data.setCell(5, 3, 1016);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -308,7 +322,7 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">6 ignored methods</span>
+            <span class="header-content">8 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -321,7 +335,7 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.example.tests.AlsoGroupCreationTests</span>
+              <span class="ignored-class-name">com.example.tests.GroupCreationTests</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">setUp</span>
                 <br/>
@@ -330,7 +344,16 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.example.tests.GroupCreationTests</span>
+              <span class="ignored-class-name">com.example.tests.GroupModificationTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.example.tests.GroupRemovalTests</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">setUp</span>
                 <br/>
@@ -353,40 +376,43 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testEmptyContactCreation</span>
-                <span class="method-start">8577 ms</span>
+                <span class="method-start">8803 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testNonEmptyContactCreation</span>
-                <span class="method-start">11543 ms</span>
+                <span class="method-start">11266 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.tests.GroupModificationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">modifySomeGroup</span>
+                <span class="method-start">15005 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.example.tests.GroupCreationTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testEmptyGroupCreation</span>
-                <span class="method-start">17029 ms</span>
+                <span class="method-start">16357 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testNonEmptyGroupCreation</span>
-                <span class="method-start">18483 ms</span>
+                <span class="method-start">17688 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.example.tests.AlsoGroupCreationTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.example.tests.GroupRemovalTests</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testEmptyGroupCreation</span>
-                <span class="method-start">20032 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testNonEmptyGroupCreation</span>
-                <span class="method-start">21503 ms</span>
+                <span class="method-name">deleteSomeGroup</span>
+                <span class="method-start">19185 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.example.tests.ContactCreationTests</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">23025 ms</span>
+                <span class="method-start">20203 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

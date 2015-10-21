@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Human human = new Human("Serena", 70, 190, 10);
+
+		Computer comp = new Computer("Fernando", 25);
+
+		BMI.checkBMI(human, comp);
+	}
+
+}

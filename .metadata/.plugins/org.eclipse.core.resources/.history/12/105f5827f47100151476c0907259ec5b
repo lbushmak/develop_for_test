@@ -1,0 +1,20 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Human h = new Human(null, 0, 0, 0);
+		h.setHeight(180);
+		h.setWeight(70);
+		h.setName("Serena");
+		h.setAge(27);
+
+		Computer comp = new Computer();
+		comp.setName("Fernando");
+		comp.setAge(25);
+
+		BMI bmi = new BMI();
+		bmi.countBMI(h);
+		bmi.checkBMI(h, comp);
+	}
+
+}

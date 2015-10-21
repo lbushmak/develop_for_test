@@ -1,0 +1,87 @@
+
+public class Human {
+
+	private String name;
+	private int age;
+	private int height;
+	private int weight;
+	public int bmi;
+
+	public int getHeight() {
+		return height;
+	}
+
+	public void setHeight(int height) {
+		if (height <= 0) {
+			System.out.println("Height is not valid (less or equal to 0)");
+			return;
+		}
+		this.height = height;
+	}
+
+	private int getAge() {
+		return age;
+	}
+
+	void setAge(int age) {
+		if (age <= 0) {
+			System.out.println("Age is not valid (less or equal to 0)");
+			return;
+		}
+
+		if (age < 12) {
+			System.out.println("Don't speak to strangers, child!");
+			return;
+		}
+
+		this.age = age;
+	}
+
+	private int getWeight() {
+		return weight;
+	}
+
+	void setWeight(int weight) {
+		if (weight <= 0) {
+			System.out.println("Weight is not valid (less or equal to 0)");
+			return;
+		}
+		this.weight = weight;
+	}
+
+	private String getName() {
+		return name;
+	}
+
+	void setName(String name) {
+		// if (name == null) {
+		// System.out.println("Don't be shy. Tell me your name!");
+		// return;
+		// }
+		if (name.equals("")) {
+			System.out.println("Don't be shy. Tell me your name!");
+			return;
+		}
+		this.name = name;
+	}
+
+	public void go() {
+		System.out.println("I go home " + "and my name is " + getName());
+	}
+
+	public String speak() {
+		return "Hey there!";
+	}
+
+	public void printBmi() {
+		bmi = height - weight;
+		System.out.println(bmi);
+	}
+
+	public void checkBMI() {
+		if (bmi > 120) {
+			System.out.println("Hey, " + name + "! You have to go to gym. Your weight is " + weight + " , but your age is only " + age);
+		}
+	}
+
+}

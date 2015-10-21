@@ -1,0 +1,7 @@
+
+public class Output {
+	public static void PrintHuman(Human human) {
+		System.out.println(
+				"Your name: " + human.getName() + "\n Your age: " + human.getAge() + " Your BMI: " + human.getBMI());
+	}
+}

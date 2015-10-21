@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Insert {
+
+	private static Scanner in;
+
+	public static void input() {
+
+		in = new Scanner(System.in);
+		System.out.print("¬ведите количество тактов: ");
+		int number  = in.nextInt();
+		System.out.println("ќбщее количество тактов: " + number + ".");
+	}
+}
