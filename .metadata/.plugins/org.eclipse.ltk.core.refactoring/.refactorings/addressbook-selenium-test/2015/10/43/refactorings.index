@@ -38,3 +38,4 @@
 1445255695881	Inline local variable 'locator'
 1445255702760	Inline local variable 'text'
 1445415746367	Extract method 'selecyGroupByIndex'
+1445419719612	Rename package 'com.example.vw'

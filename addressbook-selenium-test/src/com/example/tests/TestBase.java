@@ -3,7 +3,7 @@ package com.example.tests;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
-import com.example.vw.ApplicationManager;
+import com.example.fw.ApplicationManager;
 
 public class TestBase {
 
