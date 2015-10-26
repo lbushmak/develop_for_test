@@ -9890,3 +9890,649 @@ java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-sel
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 59225 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--1107854919\testng-customsuite.xml
 java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 59225 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--1107854919\testng-customsuite.xml
+!SESSION 2015-10-22 00:41:36.514 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-10-22 00:42:17.257
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bushma'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2015-10-22 00:42:42.096
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:src [in addressbook-selenium-test]
+  <default> (...)
+  com (...)
+  com.example (...)
+  com.example.fw (...)
+  com.example.tests (...)
+
+!ENTRY org.testng.eclipse 1 0 2015-10-22 00:42:42.115
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:<default> [in src [in addressbook-selenium-test]]
+
+!ENTRY org.testng.eclipse 1 0 2015-10-22 00:42:42.133
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com [in src [in addressbook-selenium-test]]
+
+!ENTRY org.testng.eclipse 1 0 2015-10-22 00:42:42.149
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example [in src [in addressbook-selenium-test]]
+
+!ENTRY org.testng.eclipse 1 0 2015-10-22 00:42:42.165
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.fw [in src [in addressbook-selenium-test]]
+  ApplicationManager.java
+    package com.example.fw
+    import java.util.concurrent.TimeUnit
+    import org.openqa.selenium.WebDriver
+    import org.openqa.selenium.firefox.FirefoxDriver
+    class ApplicationManager
+      WebDriver driver
+      String baseUrl
+      NavigationHelper navigationHelper
+      GroupHelper groupHelper
+      ContactHelper contactHelper
+      ApplicationManager()
+      void stop()
+      NavigationHelper getNavigationHelper()
+      ContactHelper getContactHelper()
+      GroupHelper getGroupHelper()
+  ContactHelper.java (not open)
+  GroupHelper.java (not open)
+  NavigationHelper.java (not open)
+  [Working copy] HelperBase.java
+    package com.example.fw
+    import org.openqa.selenium.Alert
+    import org.openqa.selenium.By
+    import org.openqa.selenium.NoAlertPresentException
+    import org.openqa.selenium.NoSuchElementException
+    import org.openqa.selenium.WebDriver
+    import org.openqa.selenium.support.ui.Select
+    class HelperBase
+      ApplicationManager manager
+      WebDriver driver
+      boolean acceptNextAlert
+      HelperBase(ApplicationManager)
+      boolean isElementPresent(By)
+      boolean isAlertPresent()
+      String closeAlertAndGetItsText()
+      void type(By, String)
+      void click(By)
+      void selectByText(By, String)
+
+!ENTRY org.testng.eclipse 1 0 2015-10-22 00:42:42.223
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:com.example.tests [in src [in addressbook-selenium-test]]
+  ContactData.java (not open)
+  GroupCreationTests.java (not open)
+  GroupData.java (not open)
+  GroupModificationTests.java (not open)
+  ContactCreationTests.java (not open)
+  TestBase.java (not open)
+  ContactRemovalTests.java (not open)
+  ContactModificationTests.java (not open)
+  GroupRemovalTests.java (not open)
+
+!ENTRY org.testng.eclipse 1 0 2015-10-22 00:42:43.696
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 59469 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-263131294\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 59469 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-263131294\testng-customsuite.xml
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2015-10-22 00:49:41.403
+!MESSAGE Error setting focus to : org.eclipse.e4.ui.model.application.ui.basic.impl.PartImpl ContactModificationTests.java
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4491)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:354)
+	at org.eclipse.swt.widgets.Control.setFocus(Control.java:3354)
+	at org.eclipse.swt.widgets.Composite.setFocus(Composite.java:1056)
+	at org.eclipse.swt.widgets.Composite.setFocus(Composite.java:1056)
+	at org.eclipse.ui.texteditor.StatusTextEditor.setFocus(StatusTextEditor.java:120)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.setFocus(JavaEditor.java:2395)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.delegateSetFocus(CompatibilityPart.java:204)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:258)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:229)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:107)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.focusGui(PartRenderingEngine.java:775)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer$2.setFocus(ContributedPartRenderer.java:102)
+	at org.eclipse.swt.custom.CTabItem.setFocus(CTabItem.java:332)
+	at org.eclipse.swt.custom.CTabFolder.setFocus(CTabFolder.java:2602)
+	at org.eclipse.swt.widgets.Control.fixFocus(Control.java:1053)
+	at org.eclipse.swt.widgets.Control.setVisible(Control.java:3859)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3146)
+	at org.eclipse.swt.custom.CTabFolder.setSelection(CTabFolder.java:3103)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1318)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4761)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1279)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1582)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1533)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(WorkbenchPage.java:1503)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditor(WorkbenchPage.java:1628)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$23.run(AbstractTextEditor.java:4333)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4155)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3772)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+!SESSION 2015-10-26 11:20:51.748 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-10-26 11:27:48.521
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.core 4 4 2015-10-26 11:27:56.212
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: addressbook-selenium-test
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:794)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete '/addressbook-selenium-test/bin/com'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin\com\example.
+Contains: Could not delete: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin\com.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2015-10-26 11:27:56.256
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2015-10-26 11:27:56.256
+!MESSAGE Could not delete '/addressbook-selenium-test/bin/com'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:180)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin\com\example.
+Contains: Could not delete: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin\com.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2015-10-26 11:27:56.256
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2015-10-26 11:27:56.256
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-10-26 11:27:56.256
+!MESSAGE Could not delete: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin\com\example.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2015-10-26 11:27:56.256
+!MESSAGE Could not delete: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin\com.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-10-26 11:28:22.505
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bushma'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 12:46:59.032
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupCreationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import java.util.List
+  import org.testng.Assert.assertEquals
+  import org.testng.annotations.Test
+  class GroupCreationTests
+    void testNonEmptyGroupCreation()
+    void testEmptyGroupCreation()
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 12:47:00.362
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62905 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-811925674\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 62905 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-811925674\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 12:58:42.871
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63441 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-1259379899\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 63441 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-1259379899\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 13:02:52.637
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63650 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--1590133396\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 63650 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--1590133396\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 13:04:14.268
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63706 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-46911877\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 63706 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-46911877\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 13:13:16.689
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupCreationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import java.util.List
+  import org.testng.Assert.assertEquals
+  import org.testng.annotations.Test
+  class GroupCreationTests
+    void testNonEmptyGroupCreation()
+    void testEmptyGroupCreation()
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 13:13:17.024
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64061 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-719068729\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 64061 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-719068729\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 13:16:29.482
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupCreationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import java.util.List
+  import org.testng.Assert.assertEquals
+  import org.testng.annotations.Test
+  class GroupCreationTests
+    void testNonEmptyGroupCreation()
+    void testEmptyGroupCreation()
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 13:16:29.699
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64238 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--249299925\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 64238 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--249299925\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 13:18:37.811
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupCreationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import java.util.List
+  import org.testng.Assert.assertEquals
+  import org.testng.annotations.Test
+  class GroupCreationTests
+    void testNonEmptyGroupCreation()
+    void testEmptyGroupCreation()
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 13:18:38.068
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64410 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--1935118008\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 64410 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--1935118008\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 13:18:59.780
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64578 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-1654235130\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 64578 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-1654235130\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 13:45:13.617
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 65126 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-1183939513\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 65126 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-1183939513\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 14:07:18.672
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:GroupModificationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import org.testng.annotations.Test
+  class GroupModificationTests
+    void modifySomeGroup()
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 14:07:19.305
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49240 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--2030186568\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 49240 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--2030186568\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 14:09:45.116
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49310 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--1886058972\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 49310 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--1886058972\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 14:10:13.824
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupCreationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import java.util.Collections
+  import java.util.List
+  import org.testng.Assert.assertEquals
+  import org.testng.annotations.Test
+  class GroupCreationTests
+    void testNonEmptyGroupCreation()
+    void testEmptyGroupCreation()
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 14:10:13.901
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49375 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-44488415\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 49375 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-44488415\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 14:24:43.510
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupCreationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import java.util.Collections
+  import java.util.List
+  import org.testng.Assert.assertEquals
+  import org.testng.annotations.Test
+  class GroupCreationTests
+    void testNonEmptyGroupCreation()
+    void testEmptyGroupCreation()
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 14:24:43.593
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49872 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-1429580046\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 49872 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-1429580046\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 14:31:34.019
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50201 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-422506640\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 50201 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-422506640\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 14:32:49.245
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50362 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-1043951090\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 50362 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-1043951090\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 14:40:42.834
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupModificationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import org.testng.annotations.Test
+  class GroupModificationTests
+    void modifySomeGroup()
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 14:40:43.036
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50544 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-2053851843\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 50544 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-2053851843\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 14:46:28.301
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupCreationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import java.util.Collections
+  import java.util.List
+  import org.testng.Assert.assertEquals
+  import org.testng.annotations.Test
+  class GroupCreationTests
+    void testGroupCreationWithValidData(GroupData)
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 14:46:28.538
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50719 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--1519469367\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 50719 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--1519469367\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 15:06:52.174
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupCreationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import java.util.ArrayList
+  import java.util.Collections
+  import java.util.Iterator
+  import java.util.List
+  import java.util.Random
+  import org.testng.Assert.assertEquals
+  import org.testng.annotations.Test
+  class GroupCreationTests
+    Iterator<Object[]> randomValidGroupGenerator()
+    String generateRandomString()
+    void testGroupCreationWithValidData(GroupData)
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 15:06:52.475
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50829 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--752587436\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 50829 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--752587436\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 15:08:54.830
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupCreationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import java.util.ArrayList
+  import java.util.Collections
+  import java.util.Iterator
+  import java.util.List
+  import java.util.Random
+  import org.testng.Assert.assertEquals
+  import org.testng.annotations.DataProvider
+  import org.testng.annotations.Test
+  class GroupCreationTests
+    Iterator<Object[]> randomValidGroupGenerator()
+    String generateRandomString()
+    void testGroupCreationWithValidData(GroupData)
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 15:08:55.039
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50869 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-2088919464\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 50869 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-2088919464\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 15:13:20.373
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupRemovalTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import java.util.Random
+  import org.testng.annotations.Test
+  class GroupRemovalTests
+    void deleteSomeGroup()
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 15:13:20.705
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51590 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--773047526\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 51590 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--773047526\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 15:14:39.145
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupRemovalTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import java.util.Random
+  import org.testng.annotations.Test
+  class GroupRemovalTests
+    void deleteSomeGroup()
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 15:14:39.348
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51759 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-442697702\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 51759 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-442697702\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 15:16:19.855
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupModificationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import java.util.Random
+  import org.testng.annotations.Test
+  class GroupModificationTests
+    void modifySomeGroup()
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 15:16:20.118
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51927 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-790849484\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 51927 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-790849484\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 15:27:27.974
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupModificationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import java.util.Random
+  import org.testng.annotations.Test
+  class GroupModificationTests
+    void modifySomeGroup(GroupData)
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 15:27:28.396
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52138 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-1424079943\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 52138 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-1424079943\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 15:30:07.230
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] GroupModificationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import org.testng.Assert.assertEquals
+  import java.util.Collections
+  import java.util.List
+  import java.util.Random
+  import org.testng.annotations.Test
+  class GroupModificationTests
+    void modifySomeGroup(GroupData)
+
+!ENTRY org.testng.eclipse 1 0 2015-10-26 15:30:07.283
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52874 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-175955035\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 52874 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-175955035\testng-customsuite.xml
