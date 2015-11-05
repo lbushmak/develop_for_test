@@ -1,0 +1,3 @@
+1446398940230	Inline local variable 'contact'
+1446400253532	Extract local variable 'contactHelper'
+1446402424152	Extract method 'submitContactRemoval'

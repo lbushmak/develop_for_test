@@ -1,2 +1,8 @@
 1445858590283	Extract local variable 'group'
 1445945016604	Extract local variable 'contact'
+1446195996156	Inline local variable 'group'
+1446197532578	Extract local variable 'groupHelper'
+1446198688688	Rename local variable 'hasGroupSelector'
+1446199146086	Rename method 'getNavigationHelper'
+1446199215138	Rename method 'gotoGroupsPage'
+1446202378779	Extract method 'submitGroupRemoval'

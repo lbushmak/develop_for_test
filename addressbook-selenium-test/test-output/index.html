@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\bushma\AppData\Local\Temp\testng-eclipse--1477729045\testng-customsuite.xml</span>
+                    <span>C:\Users\bushma\AppData\Local\Temp\testng-eclipse-290122873\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.example.tests.ContactModificationTests" hash-for-method="modifySomeContact(ContactData [firstname=test1119998441, lastname=test770306503, address=, home=test741084679, mobile=...)">modifySomeContact(ContactData [firstname=test1119998441, lastname=test770306503, address=, home=test741084679, mobile=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,27 +115,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.example.tests.ContactCreationTests" hash-for-method="testContactCreationwithValidData(ContactData [firstname=, lastname=test1087555211, address=test734522341, home=test-1633701563, mobil...)">testContactCreationwithValidData(ContactData [firstname=, lastname=test1087555211, address=test734522341, home=test-1633701563, mobil...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.example.tests.ContactModificationTests" hash-for-method="modifySomeContact(ContactData [firstname=test-2002035321, lastname=test-1684399325, address=, home=test1140555814, mob...)">modifySomeContact(ContactData [firstname=test-2002035321, lastname=test-1684399325, address=, home=test1140555814, mob...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.example.tests.ContactCreationTests" hash-for-method="testContactCreationwithValidData(ContactData [firstname=test1157152872, lastname=test-651470158, address=test-648742353, home=test-18...)">testContactCreationwithValidData(ContactData [firstname=test1157152872, lastname=test-651470158, address=test-648742353, home=test-18...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.example.tests.ContactCreationTests" hash-for-method="testContactCreationwithValidData(ContactData [firstname=, lastname=test884095319, address=, home=test-143253200, mobile=test-11398258...)">testContactCreationwithValidData(ContactData [firstname=, lastname=test884095319, address=, home=test-143253200, mobile=test-11398258...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.example.tests.ContactCreationTests" hash-for-method="testContactCreationwithValidData(ContactData [firstname=test452011151, lastname=test295597513, address=test1288972552, home=test-1670...)">testContactCreationwithValidData(ContactData [firstname=test452011151, lastname=test295597513, address=test1288972552, home=test-1670...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.example.tests.ContactCreationTests" hash-for-method="testContactCreationwithValidData(ContactData [firstname=test1337068155, lastname=test-1021500428, address=test950470386, home=, mobil...)">testContactCreationwithValidData(ContactData [firstname=test1337068155, lastname=test-1021500428, address=test950470386, home=, mobil...)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.example.tests.ContactModificationTests" hash-for-method="modifySomeContact(ContactData [firstname=test-2047060362, lastname=test1747868456, address=, home=test202054427, mobil...)">modifySomeContact(ContactData [firstname=test-2047060362, lastname=test1747868456, address=, home=test202054427, mobil...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -136,50 +135,75 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.example.tests.ContactCreationTests</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.example.tests.ContactModificationTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testContactCreationwithValidData(ContactData [firstname=, lastname=test1087555211, address=test734522341, home=test-1633701563, mobil...)">
-                  </a> <!-- testContactCreationwithValidData(ContactData [firstname=, lastname=test1087555211, address=test734522341, home=test-1633701563, mobil...) -->
-                  <span class="method-name">testContactCreationwithValidData</span>
-                  <span class="parameters">(ContactData [firstname=, lastname=test1087555211, address=test734522341, home=test-1633701563, mobile=test-1276680304, work=test-1138459550, email=test-9462875, email2=test-582924812, bday=11, bmonth=-, byear=1290, group=GroupData [groupname=test697164264, header=null, footer=null], address2=test-1213871969, phone2=])</span>
+                  <a name="modifySomeContact(ContactData [firstname=test1119998441, lastname=test770306503, address=, home=test741084679, mobile=...)">
+                  </a> <!-- modifySomeContact(ContactData [firstname=test1119998441, lastname=test770306503, address=, home=test741084679, mobile=...) -->
+                  <span class="method-name">modifySomeContact</span>
+                  <span class="parameters">(ContactData [firstname=test1119998441, lastname=test770306503, address=, home=test741084679, mobile=test2090664200, work=test-2146134446, email=test-1273056646, email2=test-897111604, bday=11, bmonth=November, byear=, group=GroupData [groupname=Marketing, header=null, footer=null], address2=test399559978, phone2=])</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: &lt;[ContactData [firstname=test1119998441, lastname=test770306503, address=, home=test741084679, mobile=test2090664200, work=test-2146134446, email=test-1273056646, email2=test-897111604, bday=11, bmonth=November, byear=, group=GroupData [groupname=Marketing, header=null, footer=null], address2=test399559978, phone2=], ContactData [firstname=test417384882, lastname=test-789709531, address=null, home=null, mobile=null, work=null, email=null, email2=null, bday=null, bmonth=null, byear=null, group=null, address2=null, phone2=null]]&gt;
+     but: was &lt;[ContactData [firstname=test-2047060362, lastname=test1747868456, address=null, home=null, mobile=null, work=null, email=null, email2=null, bday=null, bmonth=null, byear=null, group=null, address2=null, phone2=null], ContactData [firstname=test1119998441, lastname=test770306503, address=null, home=null, mobile=null, work=null, email=null, email2=null, bday=null, bmonth=null, byear=null, group=null, address2=null, phone2=null]]&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at com.example.tests.ContactModificationTests.modifySomeContact(ContactModificationTests.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.example.tests.ContactModificationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="modifySomeContact(ContactData [firstname=test-2002035321, lastname=test-1684399325, address=, home=test1140555814, mob...)">
+                  </a> <!-- modifySomeContact(ContactData [firstname=test-2002035321, lastname=test-1684399325, address=, home=test1140555814, mob...) -->
+                  <span class="method-name">modifySomeContact</span>
+                  <span class="parameters">(ContactData [firstname=test-2002035321, lastname=test-1684399325, address=, home=test1140555814, mobile=test289765348, work=, email=, email2=, bday=-, bmonth=March, byear=, group=GroupData [groupname=test1426768387, header=null, footer=null], address2=test-1153248838, phone2=test1086605107])</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testContactCreationwithValidData(ContactData [firstname=test1157152872, lastname=test-651470158, address=test-648742353, home=test-18...)">
-                  </a> <!-- testContactCreationwithValidData(ContactData [firstname=test1157152872, lastname=test-651470158, address=test-648742353, home=test-18...) -->
-                  <span class="method-name">testContactCreationwithValidData</span>
-                  <span class="parameters">(ContactData [firstname=test1157152872, lastname=test-651470158, address=test-648742353, home=test-1864428266, mobile=test2039425610, work=test-432449929, email=, email2=test1782706591, bday=-, bmonth=April, byear=, group=GroupData [groupname=group_1, header=null, footer=null], address2=, phone2=test1162669720])</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testContactCreationwithValidData(ContactData [firstname=, lastname=test884095319, address=, home=test-143253200, mobile=test-11398258...)">
-                  </a> <!-- testContactCreationwithValidData(ContactData [firstname=, lastname=test884095319, address=, home=test-143253200, mobile=test-11398258...) -->
-                  <span class="method-name">testContactCreationwithValidData</span>
-                  <span class="parameters">(ContactData [firstname=, lastname=test884095319, address=, home=test-143253200, mobile=test-1139825896, work=test388295498, email=test-51641997, email2=test699393639, bday=4, bmonth=September, byear=1450, group=GroupData [groupname=group_name_1, header=null, footer=null], address2=, phone2=test1080126236])</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testContactCreationwithValidData(ContactData [firstname=test452011151, lastname=test295597513, address=test1288972552, home=test-1670...)">
-                  </a> <!-- testContactCreationwithValidData(ContactData [firstname=test452011151, lastname=test295597513, address=test1288972552, home=test-1670...) -->
-                  <span class="method-name">testContactCreationwithValidData</span>
-                  <span class="parameters">(ContactData [firstname=test452011151, lastname=test295597513, address=test1288972552, home=test-1670955892, mobile=test-1528297623, work=test1113226638, email=test1575466750, email2=, bday=18, bmonth=February, byear=, group=GroupData [groupname=test-427747195, header=null, footer=null], address2=, phone2=test217312452])</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testContactCreationwithValidData(ContactData [firstname=test1337068155, lastname=test-1021500428, address=test950470386, home=, mobil...)">
-                  </a> <!-- testContactCreationwithValidData(ContactData [firstname=test1337068155, lastname=test-1021500428, address=test950470386, home=, mobil...) -->
-                  <span class="method-name">testContactCreationwithValidData</span>
-                  <span class="parameters">(ContactData [firstname=test1337068155, lastname=test-1021500428, address=test950470386, home=, mobile=test-230090852, work=test583857026, email=test1781082998, email2=test2104324769, bday=4, bmonth=May, byear=1762, group=GroupData [groupname=group_1, header=null, footer=null], address2=test-1283736611, phone2=])</span>
+                  <a name="modifySomeContact(ContactData [firstname=test-2047060362, lastname=test1747868456, address=, home=test202054427, mobil...)">
+                  </a> <!-- modifySomeContact(ContactData [firstname=test-2047060362, lastname=test1747868456, address=, home=test202054427, mobil...) -->
+                  <span class="method-name">modifySomeContact</span>
+                  <span class="parameters">(ContactData [firstname=test-2047060362, lastname=test1747868456, address=, home=test202054427, mobile=test1015280408, work=test953775355, email=, email2=, bday=-, bmonth=July, byear=1612, group=GroupData [groupname=Marketing, header=null, footer=null], address2=, phone2=test-75582797])</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,7 +211,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\bushma\AppData\Local\Temp\testng-eclipse--1477729045\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\bushma\AppData\Local\Temp\testng-eclipse-290122873\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -196,7 +220,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.example.tests.ContactCreationTests&quot;/&gt;
+      &lt;class name=&quot;com.example.tests.ContactModificationTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -236,32 +260,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testContactCreationwithValidData')
-data.setCell(0, 2, 'com.example.tests.ContactCreationTests')
-data.setCell(0, 3, 7031);
+data.setCell(0, 1, 'modifySomeContact')
+data.setCell(0, 2, 'com.example.tests.ContactModificationTests')
+data.setCell(0, 3, 63556);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testContactCreationwithValidData')
-data.setCell(1, 2, 'com.example.tests.ContactCreationTests')
-data.setCell(1, 3, 6908);
+data.setCell(1, 1, 'modifySomeContact')
+data.setCell(1, 2, 'com.example.tests.ContactModificationTests')
+data.setCell(1, 3, 32866);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testContactCreationwithValidData')
-data.setCell(2, 2, 'com.example.tests.ContactCreationTests')
-data.setCell(2, 3, 6551);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testContactCreationwithValidData')
-data.setCell(3, 2, 'com.example.tests.ContactCreationTests')
-data.setCell(3, 3, 6534);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testContactCreationwithValidData')
-data.setCell(4, 2, 'com.example.tests.ContactCreationTests')
-data.setCell(4, 3, 6275);
+data.setCell(2, 1, 'modifySomeContact')
+data.setCell(2, 2, 'com.example.tests.ContactModificationTests')
+data.setCell(2, 3, 32643);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 33 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -287,34 +303,28 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.example.tests.ContactCreationTests</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.example.tests.ContactModificationTests</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">testContactCreationwithValidData(ContactData [firstname=test452011151, lastname=test295597513, address=test1288972552, home=test-1670...)</span>
-                <span class="method-start">18747 ms</span>
+                <span class="method-name">modifySomeContact(ContactData [firstname=test-2047060362, lastname=test1747868456, address=, home=test202054427, mobil...)</span>
+                <span class="method-start">11391 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testContactCreationwithValidData(ContactData [firstname=test1337068155, lastname=test-1021500428, address=test950470386, home=, mobil...)</span>
-                <span class="method-start">25656 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">modifySomeContact(ContactData [firstname=test1119998441, lastname=test770306503, address=, home=test741084679, mobile=...)</span>
+                <span class="method-start">74948 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testContactCreationwithValidData(ContactData [firstname=, lastname=test1087555211, address=test734522341, home=test-1633701563, mobil...)</span>
-                <span class="method-start">32688 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testContactCreationwithValidData(ContactData [firstname=, lastname=test884095319, address=, home=test-143253200, mobile=test-11398258...)</span>
-                <span class="method-start">39223 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testContactCreationwithValidData(ContactData [firstname=test1157152872, lastname=test-651470158, address=test-648742353, home=test-18...)</span>
-                <span class="method-start">45774 ms</span>
+                <span class="method-name">modifySomeContact(ContactData [firstname=test-2002035321, lastname=test-1684399325, address=, home=test1140555814, mob...)</span>
+                <span class="method-start">107816 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">52051 ms</span>
+                <span class="method-start">140461 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
