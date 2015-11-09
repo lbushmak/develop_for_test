@@ -1,9 +1,0 @@
-
-public class Cycle {
-
-	{
-		int n = Input.input();
-		for (n = ; n > 0; n--)
-			System.out.println("тaкт " + n);
-	}
-}

@@ -14888,3 +14888,148 @@ java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-sel
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 55493 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-290122873\testng-customsuite.xml
 java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 55493 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-290122873\testng-customsuite.xml
+!SESSION 2015-11-06 23:34:46.480 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-11-06 23:35:24.964
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-06 23:35:57.486
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bushma'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2015-11-06 23:42:01.755
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51603 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-1900132962\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 51603 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-1900132962\testng-customsuite.xml
+!SESSION 2015-11-09 14:02:47.002 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-11-09 14:03:27.133
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bushma'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2015-11-09 14:16:50.745
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactCreationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import org.junit.Assert.assertThat
+  import org.hamcrest.Matchers.*
+  import org.testng.annotations.Test
+  import com.example.utils.ListOf
+  class ContactCreationTests
+    void testContactCreationwithValidData(ContactData)
+
+!ENTRY org.testng.eclipse 1 0 2015-11-09 14:20:28.331
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactCreationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import org.junit.Assert.assertThat
+  import org.hamcrest.Matchers.*
+  import org.testng.annotations.Test
+  import com.example.utils.ListOf
+  class ContactCreationTests
+    void testContactCreationwithValidData(ContactData)
+
+!ENTRY org.testng.eclipse 1 0 2015-11-09 14:20:28.597
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51616 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-795095347\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 51616 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse-795095347\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-11-09 14:23:04.849
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactCreationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import org.junit.Assert.assertThat
+  import java.util.Collections
+  import org.hamcrest.Matchers.*
+  import org.testng.annotations.Test
+  import com.example.utils.ListOf
+  class ContactCreationTests
+    void testContactCreationwithValidData(ContactData)
+
+!ENTRY org.testng.eclipse 1 0 2015-11-09 14:23:05.167
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51921 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--954744296\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 51921 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--954744296\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-11-09 14:28:39.168
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactCreationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import org.junit.Assert.assertThat
+  import java.util.Collections
+  import org.hamcrest.Matchers.*
+  import org.testng.annotations.Test
+  import com.example.utils.ListOf
+  class ContactCreationTests
+    void testContactCreationwithValidData(ContactData)
+
+!ENTRY org.testng.eclipse 1 0 2015-11-09 14:28:39.277
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52190 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--1926646624\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 52190 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--1926646624\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-11-09 15:30:39.172
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactRemovalTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import org.hamcrest.Matchers.equalTo
+  import org.junit.Assert.assertThat
+  import java.util.Collections
+  import java.util.Random
+  import org.testng.annotations.Test
+  import com.example.utils.ListOf
+  class ContactRemovalTests
+    void deleteSomeContact()
+
+!ENTRY org.testng.eclipse 1 0 2015-11-09 15:30:39.390
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53036 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--396370553\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 53036 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--396370553\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2015-11-09 15:30:56.862
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] ContactModificationTests.java [in com.example.tests [in src [in addressbook-selenium-test]]]
+  package com.example.tests
+  import org.hamcrest.Matchers.equalTo
+  import org.junit.Assert.assertThat
+  import java.util.Collections
+  import java.util.Random
+  import org.testng.annotations.Test
+  import com.example.utils.ListOf
+  class ContactModificationTests
+    void modifySomeContact(ContactData)
+
+!ENTRY org.testng.eclipse 1 0 2015-11-09 15:30:56.972
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53118 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--1180473487\testng-customsuite.xml
+java -ea -classpath C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\bin:C:\Users\bushma\Downloads\selenium-server-standalone-2.48.2.jar org.testng.remote.RemoteTestNG -serport 53118 -d C:\Users\bushma\Desktop\git\develop_for_test\addressbook-selenium-test\test-output C:\Users\bushma\AppData\Local\Temp\testng-eclipse--1180473487\testng-customsuite.xml
