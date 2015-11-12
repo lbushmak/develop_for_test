@@ -11,10 +11,11 @@
 	<item value="500" key="CallHierarchyViewPart.ratio3"/>
 	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
 	<item value="0" key="CallHierarchyViewPart.call_mode"/>
-	<item value="C:\Users\bushma\Downloads" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="C:\Users\bushma\Downloads\xstream-distribution-1.4.8-bin\xstream-1.4.8\lib\xstream" key="org.eclipse.jdt.ui.lastextjar"/>
 	<item value="false" key="InstanceOf"/>
 	<item value="3" key="CallHierarchyViewPart.orientation"/>
 	<item value="C:\Users\bushma\Desktop\Новая папка" key="org.eclipse.jdt.ui.last.external.project"/>
+	<item value="480,510" key="UserLibraryLoadSaveDialog.size"/>
 	<list key="SearchScopeActionGroup.working_set">
 	</list>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
